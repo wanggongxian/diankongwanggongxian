@@ -1,0 +1,71 @@
+# ---- OS / 编辑器 ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# ---- 通用构建产物 ----
+build/
+dist/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.map
+
+# ---- C / C++ ----
+*.d
+*.dSYM/
+*.su
+*.idb
+*.sdf
+*.opensdf
+*.ipch
+*.vcxproj.user
+*.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# ---- 嵌入式 / 电控相关 ----
+*.hex
+*.bin
+*.elf
+*.lst
+*.axf
+*.uvguix.*
+*.uvoptx
+*.uvprojx.bak
+JLinkLog.txt
+JLinkSettings.ini
+RTE/
+DebugConfig/
+Objects/
+Listings/
+
+# ---- Python（脚本/数据处理） ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+*.bak
+*.cache
